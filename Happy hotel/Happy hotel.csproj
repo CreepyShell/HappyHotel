@@ -46,14 +46,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="formAddRoom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="formAddRoom.Designer.cs">
+      <DependentUpon>formAddRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMainMenu.Designer.cs">
+      <DependentUpon>formMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSetRoomType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSetRoomType.Designer.cs">
+      <DependentUpon>formSetRoomType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUpdateRoomType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUpdateRoomType.Designer.cs">
+      <DependentUpon>formUpdateRoomType.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formAddRoom.resx">
+      <DependentUpon>formAddRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMainMenu.resx">
+      <DependentUpon>formMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

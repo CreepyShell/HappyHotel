@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Happy_hotel
 {
-    public partial class Form1 : Form
+    public partial class formSetRoomType : Form
     {
-        public Form1()
+        public formSetRoomType()
         {
             InitializeComponent();
         }
